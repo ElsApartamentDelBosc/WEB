@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL GP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/9e5302b296.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "images/logo.png" type = "image/png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="fixed-buttons">
+            <a href="https://www.instagram.com/elsapartamentsdelbosc/" target="_blank" class="instagram-button">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=34627581991" target="_blank" class="whatsapp-button">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+
+        <!-- header -->
+        
+        <header class = "header" id = "header">
+            <div class="language-switcher">
+                <button class="lang-button" onclick="changeLanguage('ca')"><img src="images/es-ct.svg" alt=""></button>
+                <button class="lang-button" onclick="changeLanguage('es')"><img src="images/es.svg" alt=""></button>
+                <button class="lang-button" onclick="changeLanguage('fr')"><img src="images/fr.svg" alt=""></button>
+                <button class="lang-button" onclick="changeLanguage('en')"><img src="images/gb.svg" alt=""></button>
+              </div>
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span><img src = "images/logob.svg"/></span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex" >
+                <h2 data-aos="fade-up"
+                data-aos-duration="1000">Els Apartaments del Bosc</h2>
+                <p id="bannerPromocional" data-aos="fade-up"
+                data-aos-duration="1300">Vive una experiencia única en medio de la naturaleza. Apartamentos a pocos minutos de Ribes de Freser.</p>
+            </div>
+            
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a id="inicio" href = "#header">Inicio</a></li>
+                <li><a id="servicios" href = "#services">Servicios</a></li>
+                <li><a id="habitaciones" href = "#rooms">Habitaciones</a></li>
+                <li><a id="extras" href = "#customers">Extras</a></li>
+                <li><a id="encuéntranos" href = "#map-container">Encuéntranos</a></li>
+            </ul>
+        </div>
+        <!-- end of side navbar -->
+
+        <!-- body content  -->
+        <section class = "services sec-width" id = "services">
+            <div class = "title" data-aos="fade-right" data-aos-duration="900">
+                <h2 id="serviciosTitulo">SERVICIOS</h2>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service" data-aos="fade-up" data-aos-duration="900">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fa-solid fa-dog"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2 id="servicioPetfriendly">Pet Friendly</h2>
+                        <p id="servicios1">
+                            ¡Tu mascota es bienvenida! Ofrecemos amplios espacios al aire libre para que corra y juegue. En la habitación, encontrarás un bowl para el agua. Aplicamos un suplemento de 8 € por noche y mascota. Este cargo adicional respalda nuestros esfuerzos adicionales de limpieza y cuidado, garantizando un ambiente acogedor para todos.
+                        </p>
+                    
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service" data-aos="fade-up" data-aos-duration="900">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2 id="servicioPiscina">Piscina de temporada y área de descanso</h2>
+                        <p id="servicios2">
+                            Disfruta de nuestra amplia piscina al aire libre diseñada para relajarte al máximo. Sumérgete en este oasis de confort después de emocionantes excursiones. Con cómodas tumbonas y toallas, es el lugar perfecto para recargar energías tras tus aventuras diarias.
+                        </p>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service" data-aos="fade-up" data-aos-duration="900">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fa-solid fa-person-hiking"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2 id="servicioActividadesExtras">Actividades y atracciones</h2>
+                        <p id="servicios3">
+                            Descubre la belleza de Ribes de Freser, a solo 400 metros de nuestro alojamiento. A 912 metros sobre el nivel del mar, nuestro refugio ofrece un entorno excepcional entre montañas, bosques y ríos pirenaicos. Ideal para relajarte o disfrutar de deportes al aire libre como esquí, ciclismo y senderismo.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service" data-aos="fade-up" data-aos-duration="900">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fa-solid fa-square-parking"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2 id="servicioParking">Parking</h2>
+                        <p id="servicios4">
+                            Nuestro establecimiento ofrece un práctico estacionamiento, asegurándote un lugar cercano y seguro para aparcar tu vehículo. Cada apartamento cuenta con su espacio designado en nuestro parking, proporcionando comodidad y seguridad exclusiva para nuestros huéspedes.
+                        </p>
+                    </div>
+                </article>
+                <article class = "service" data-aos="fade-up" data-aos-duration="900">
+                    <div class = "service-icon">
+                        <span>
+                            <img src="images/tratamiento-ozono.png" class="o3" alt="">
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2 id="serviciosAguaOzonizada">Limpieza con Agua Ozonizada</h2>
+                        <p id="servicios5">
+                            En nuestro compromiso con la excelencia, utilizamos tecnología de vanguardia para la limpieza. Con el agua ozonizada, libre de productos tóxicos, garantizamos un ambiente limpio y saludable.
+                        </p>
+                    </div>
+                </article>
+                <article class = "service" data-aos="fade-up" data-aos-duration="900">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fa-solid fa-seedling"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2 id="servicioOnlyAldults">Only aldults</h2>
+                        <p id="servicios6">
+                            Nuestros apartementos son exclusivamente para dos adultos que buscan una experiencia serena y relajante. Apreciamos tu comprension y te deseamos que disfrutes al maximo tu estancia.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single service -->
+            </div>
+        </section>
+                <!-- single room -->
+                <section class = "rooms sec-width" id = "rooms">
+                    <div class = "title" data-aos="fade-right" data-aos-duration="900">
+                        <h2 id="apartamentos1">APARTAMENTOS</h2>
+                    </div>
+                    <div class = "rooms-container">
+                        <!-- single room -->
+                        <article class = "room" data-aos="fade-up" data-aos-duration="900">
+                            <div class = "room-image">
+                                <a href="LaCabaña.html">
+                                    <img src = "images/img1.jpg" alt = "room image">
+                                </a>
+                            </div>
+                            <div class = "room-text">
+                                <h3 id="titulo1_1">La Cabaña del bosque</h3>
+                                <ul class="ulList">
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i> <p id="descripcion1_1">Cabaña entera</p>
+                                    </li>
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        30 m²
+                                    </li>
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        <p id="descripcion1_2" >Terraza con vistas</p>
+                                    </li>
+                                </ul>
+                                <p id="descripcion1_3">Descubre nuestra Cabaña del Bosque, un acogedor apartamento de dos niveles con diseño tipo tiny house. En la parte superior, encontrarás el dormitorio, mientras que en la inferior disfrutarás de la sala, comedor, cocina y baño. Equipado con todos los utensilios para cocinar, microondas, vitrocerámica y una pequeño nevera. Disfruta de una espaciosa ducha estilo italiano, un cómodo sofá y una televisión de 52 pulgadas. La amplia terraza te invita a disfrutar de tus comidas con vistas a la montaña y el bosque. 
+                                    En la cabaña nos comprometemos con equilibrio ecológico mediante el uso de estufa de pellets y paneles solares para la calefacción del espacio y el suministro de agua caliente, desempeñando nuestro papel en la preservación del medio ambiente y la creación de un futuro más sostenible.
+                                    </p>
+                                    <div class = "rate">
+                                        <span>€112.00 /</span> <p id="descripcion1_4"> Por Noche</p>
+                                    </div>
+                                    <p id="pie1">Las tarifas están sujetas a variaciones según la demanda y la disponibilidad.</p>
+                        </article>
+                        <!-- end of single room -->                       
+                        <!-- single room -->
+                        <article class = "room" data-aos="fade-up" data-aos-duration="900">
+                            <div class = "room-image">
+                                <a href="LosApaeramentos.html">
+                                    <img src = "images/img2.jpg" alt = "room image">
+                                </a>
+                            </div>
+                            <div class = "room-text">
+                                <h3 id="titulo1_2">Los Apartamentos del bosque</h3>
+                                <ul class="ulList">
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        <p id="descripcion2_1">Alojamiento entero</p>
+                                    </li>
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        40 m²
+                                    </li>
+                                    <li>
+                                        <i  class = "fas fa-arrow-alt-circle-right"></i>
+                                        <p id="descripcion2_2">Terraza con vistas</p>
+                                    </li>
+                                </ul>
+                                <p id="descripcion2_3">Vive nuestros Apartementos, un acogedor ambiente con diseño tipo loft. Cuenta con un espacio armonioso que integra el dormitorio, la sala, el comedor y la cocina, creando una sensación de hogar. El único rincón cerrado es el baño, destacando por su espaciosa ducha al estilo italiano. Equipado con todos los utensilios necesarios para cocinar, microondas, vitrocerámica y una pequeña nevera. Siente la conexión con la naturaleza en la amplia terraza privada, donde puedes meditar y respirar aire fresco con vistas a la montaña y el bosque.
+                                    Cuenta con un eficiente sistema de calefacción central alimentado por dos energías renovables, la solar y la biomasa, contribuyendo a la preservación de un medio ambiente más sostenible.
+                                    </p>
+                        
+                                    <div class = "rate">
+                                        <span>€120.00 /</span> <p id="descripcion2_4"> Por Noche</p>
+                                    </div>
+                                <p id="pie2">Las tarifas están sujetas a variaciones según la demanda y la disponibilidad.</p>
+                            </div>
+                        </article>
+                        <!-- end of single room -->
+                        <!-- single room -->
+                        <article class = "room" data-aos="fade-up" data-aos-duration="900">
+                            <div class = "room-image">
+                                <a href="LaGlorieta.html">
+                                    <img src = "images/img3.jpg" alt = "room image">
+                                </a>
+                            </div>
+                            <div class = "room-text">
+                                <h3 id="titulo1_3">La Glorieta</h3>
+                                <ul class="ulList">
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        <p id="descripcion3_1" >Apartamento privado en edificio</p>
+                                    </li>
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        45 m²
+                                    </li>
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        <p  id="descripcion3_2">Torreón con vistas</p>
+                                    </li>
+                                </ul>
+                                <p id="descripcion3_3">Este apartamento privado se encuentra en el piso más alto de un edificio modernista de 3 plantas. El alojamiento se distribuye en tres espacios distintos: la acogedora habitación con su baño privado, un segundo espacio que engloba la sala, comedor y cocina, y la guinda del pastel, el torreón. 
+                                    En el torreón, encontrarás dos tumbonas para relajarte y disfrutar de las impresionantes vistas, junto con una pequeña mesa para deleitarte con tus comidas en este espacio único. La cocina está completamente equipada con todos los utensilios necesarios para cocinar, incluyendo microondas, vitrocerámica y una práctica nevera. 
+                                    En este apartamento, nos comprometemos con la sostenibilidad utilizando energía geotérmica y solar para calentar el espacio, contribuyendo así a la preservación del medio ambiente y a la construcción de un futuro más sostenible.
+                                    </p>
+                                    <div class = "rate">
+                                        <span>€100.00 /</span> <p id="descripcion3_4"> Por Noche</p>
+                                    </div>
+                                <p id="pie3">Las tarifas están sujetas a variaciones según la demanda y la disponibilidad.</p>
+                            </div>
+                        </article>
+                        <!-- end of single room -->
+                        <!-- single room -->
+                        <article class = "room" data-aos="fade-up" data-aos-duration="900">
+                            <div class = "room-image" href = "PetitEstudi.html">
+                                <a href="PetitEstudi.html">
+                                    <img src = "images/img4.jpg" alt = "room image">
+                                </a>
+                            </div>
+                            <div class = "room-text">
+                                <h3 id="titulo1_4">El Petit Estudi</h3>
+                                <ul class="ulList">
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        <p id="descripcion4_1">Apartamento privado en edificio</p>
+                                    </li>
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        38 m²
+                                    </li>
+                                    <li>
+                                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                                        <p id="descripcion4_2">Ventanas con vistas</p>
+                                    </li>
+                                </ul>
+                                <p id="descripcion4_3">El Petit Estudi, tal como su nombre dice, es un pequeño apartamento situado en la parte alta de la gran casa de estilo modernista de tres plantas que ocupa la finca. El alojamiento se distribuye en dos espacios distintos: la acogedora habitación con su baño privado y un segundo espacio que engloba la sala, comedor y cocina. La cocina está completamente equipada con todos los utensilios necesarios para cocinar, incluyendo microondas, vitrocerámica y una práctica nevera. 
+                                    En este apartamento, nos comprometemos con la sostenibilidad utilizando energía geotérmica y solar para calentar el espacio, contribuyendo así a la preservación del medio ambiente y a la construcción de un futuro más sostenible.
+                                    </p>
+                                    <div class = "rate">
+                                        <span>€72.00 /</span> <p id="descripcion4_4">Por Noche</p>
+                                    </div>
+                                <p id="pie4">Las tarifas están sujetas a variaciones según la demanda y la disponibilidad.</p>
+                            </div>
+                        </article>
+                        <!-- end of single room -->
+                    </div>
+                </section>
+        
+
+                
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title" data-aos="fade-right" data-aos-duration="900">
+                    <h2 id="extrasTitulo">EXTRAS</h2>
+                </div>
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <img src="images/NocheRomantica.jpg" alt="">
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <a href="https://www.vallderibes.cat/es/pueblos/ribes-de-freser/" target="_blank">
+                            <img src="images/ribes.jpg" alt="">
+                        </a>
+                    </div>
+                    <!-- end of single customer -->
+                </div>
+            </div>
+        </section>
+        <div class="ful-img" id="fulImgBox">
+            <img src="images/g1.jpg" id="fulImg" alt="">
+            <span onclick="closeImg()">X</span>
+        </div>
+        <!-- gallery -->  
+        <h1><span>Image Gallery</span></h1>
+    
+        <div class="img-gallery">
+            <img src="images/g1.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g2.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g3.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g4.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g5.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g6.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g7.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g8.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g9.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g10.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g12.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g13.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g14.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g15.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g16.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g17.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g18.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="images/g19.jpg" onclick="openFulImg(this.src)" alt="">
+        </div>
+        <!-- end of gallery -->
+        <!-- end of body content -->
+        <section id = "maps">
+            <div id="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1475.287140551592!2d2.160931038804711!3d42.308948492799416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a5423d85ae0035%3A0xb5882c67f0724a4!2sEls%20Apartaments%20del%20bosc!5e0!3m2!1sen!2sfr!4v1692456533484!5m2!1sen!2sfr" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+        </section>
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div data-aos="fade-up" data-aos-duration="900">
+                    <h2 id="tituloFooter">Sobre nosotros </h2>
+                    <p id="descripcionFooter"> Los apartamentos del bosque son dos casetas de piedra adosadas, situadas en un espacio de finca familiar a 400 metros en coche del pueblo de Ribes de Freser. También hay acceso a pie por dos senderos que en 8 minutos nos acercan al pueblo. Estaréis rodeados de montaña y bosque, por lo que las vistas son espectaculares.</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <a href="https://api.whatsapp.com/send?phone=34627581991" target="_blank"><i class = "fa fa-whatsapp fa-2x"></i></a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://www.google.dz/travel/hotels/entity/ChkQ9uK6gMW3ic1MGg0vZy8xMXMxN3FwNDc2EAI?utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESABoiCgIaABIcEhQKBwjnDxAKGAMSBwjnDxAKGAkYBjICEAA4ASoJCgU6A1VTRBoA&ved=0CAAQ5JsGahcKEwiA3t3E7dKBAxUAAAAAHQAAAAAQAw" target="_blank"><i class = "fa fa-google fa-2x"></i></a>
+                        </li>
+                        <li class = "flex">
+                            <a href="https://www.instagram.com/elsapartamentsdelbosc/" target="_blank"><i class = "fa fa-instagram fa-2x" > </i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1300">
+                    <h2 id="preguntaFooter">¿Tienes una pregunta?</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            Carretera de Puigcerdà, 28
+                            17534 Ribes de Freser 
+                            Girona, Spain
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +34 627 58 19 91
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            elsapartamentsdelbosc@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    </body>
+</html
